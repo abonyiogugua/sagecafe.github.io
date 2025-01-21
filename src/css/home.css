@@ -1227,7 +1227,7 @@ Responsive Style
   }
 
   .service_cont1 h4 {
-    font-size: 2rem;
+    font-size: larger;
     margin-bottom: 100px;
   }
 
@@ -1241,7 +1241,9 @@ Responsive Style
   }
 
   .service_cont2 img {
-    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
   }
 
   .service_conts1 {
@@ -1255,8 +1257,15 @@ Responsive Style
   }
 
   .service_svg {
-    max-width: 100%;
+    padding: 10px;
     margin: 20px;
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+    background-image: none;
+  }
+  .service_svg svg{
+    width: 300px;
   }
 
   #about_cont1 {
