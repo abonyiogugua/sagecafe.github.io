@@ -198,6 +198,16 @@
     background-color: white;
   }
   
+  
+  main h1{
+    font-size: 4rem;
+    color: var(--hedline-color);
+    text-shadow: 3px 3px 4px black;
+    text-align: center;
+    margin: 300px 70px 70px 70px;
+  }
+  
+
 
 /*======chatbot section =========*/
 

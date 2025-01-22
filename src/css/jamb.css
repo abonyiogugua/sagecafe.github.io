@@ -198,7 +198,97 @@
     background-color: white;
   }
   
+  /*======main section =========*/
 
+form{
+  margin-top: 100px;
+  text-align: center;
+  background-color: var(--banner-bg);
+  box-shadow: 3px 3px 4px black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.details h4{
+  color: var(--hedline-color);
+  text-shadow: 3px 3px 4px black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.details li{
+  text-shadow: 3px 3px 4px black;
+  font-weight: bold;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.details{
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+form h2{
+  text-shadow: 3px 3px 4px black;
+  color: var(--hedline-color);
+}
+form h3{
+  text-shadow: 3px 3px 4px black;
+}
+
+form input{
+  width: 230px;
+  padding: 10px;
+  box-shadow: 3px 3px 4px black;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.jamb_cont1{
+padding: 10px;
+}
+
+.jamb_contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+form button{
+  background-color: var(--hedline-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 3px 3px 4px black;
+  &:hover{
+    background-color: var(--hover-color);
+    transition: 2s;
+    scale: 1.2;
+  }
+}
+
+  form svg{
+    padding: 10px;
+    width: 320px;
+    height: 150px;
+    animation: rotate1 2s linear infinite ;
+  }
+
+@keyframes rotate1{
+  50%{transform: rotateY(30deg);}
+  20%{transform: rotateY(10deg);}
+  10%{scale: 1.2;}
+}
+
+
+
+
+ /*======main section end=========*/
 
 /*======chatbot section =========*/
 
@@ -501,6 +591,11 @@ h2 span{
     color: transparent;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: var(--hedline-color);
+}
+
+
+.jamb_contents{
+  display: block;
 }
 
 }  
