@@ -197,20 +197,22 @@
     background-color: white;
   }
   
+  .container1 h1{
+    color: var(--hedline-color);
+    text-shadow: 3px 3px 4px black;
+  }
 
   .container1 {
     max-width: 600px;
-   align-items: center;
-   margin-left: 300px;
+    margin: auto;
     background: var(--banner-bg);
     padding: 60px;
     border-radius: 8px;
     box-shadow: 3px 3px 4px black;
   }
   
-
   textarea {
-    text-align: center;
+  margin-top: 40px;
     width: 100%;
     height: 150px;
     margin-bottom: 20px;
@@ -222,9 +224,8 @@
     box-shadow: 3px 3px 4px black;
   }
   
-  .buttons {
+  .controls {
     display: flex;
-    gap: 100px;
     justify-content: space-between;
   }
   
@@ -232,24 +233,20 @@
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    box-shadow: 3px 3px 4px black;
     background-color: var(--hedline-color);
     border: none;
+    border-bottom: 50px;
     border-radius: 4px;
+    box-shadow: 3px 3px 4px black;
     cursor: pointer;
     &:hover{
-      transition: 2s;
-      scale: 1.2;
-      background-color: var(--hover-color);
+        background-color: var(--hover-color);
+        transition: 2s;
+        scale: 1.2;
     }
   }
   
-
-.container1 h1{
-  color: var(--hedline-color);
-  text-shadow: 3px 3px 4px black;
-}
-
+  
   .header_line h1{
     margin-top: 100px;
     margin-bottom: 100px;

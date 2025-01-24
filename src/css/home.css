@@ -193,6 +193,8 @@ input:checked+.slider::before {
   color: white;
 }
 
+
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -750,7 +752,7 @@ marquee h1 {
   padding: 5px;
 
   &:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 2s;
     background-color: var(--hover-color);
   }

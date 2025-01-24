@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sage Cafe  DOCX and PDF Converter</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/src/css/docx_converter.css">
+  <title>Sage Cafe Text to Speech Converter</title>
+        <link rel="stylesheet" href="/src/css/mp3_converter.css">
 </head>
 <body>
 
@@ -22,7 +21,7 @@
         <nav class="navbar">
           <div class="logo">Sage<span>Cafe</span> </div>
           <ul class="nav-links">
-            <li>  <a href="/index.html" >Back</a></li>
+            <li>  <a href="/index.html">Back</a></li>
               </ul>
           <div class="toggle-container">
             <label class="toggle">
@@ -46,33 +45,23 @@
 <!------ headline section ------->
 
 <div class="header_line">
-  <h1 class="scroll" >Sage Cafe <span>Doc Converter</span></h1>
+  <h1 class="scroll" >Sage Cafe <span>Video To mp3 Converter</span></h1>
 </div>
   
 <!------ headline section end------->
 
 
-      <!------ doc section ------->
-      <div class="container1">
-        <h1>Document Converter</h1>
-
-        <div class="txt_area">
-        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
-      </div>
-        <div class="buttons">
-          <div id="btns">
-          <button id="downloadTxt">TXT</button>
-        </div>
-        <div id="btns">
-          <button id="downloadDocx">DOCX</button>
-        </div>
-          <div id="btns">
-          <button id="downloadPdf">PDF</button>
-        </div>
-        </div>
+      <!------speech section ------->
+   
+      <div class="container">
+        <h1>Video to MP3 Converter</h1>
+        <input type="file" id="videoInput" accept="video/*">
+        <button id="convertButton">Convert to MP3</button>
+        <div id="output"></div>
       </div>
     
-  <!------ doc section end------->
+
+  <!------speech section end------->
 
 
 
@@ -107,10 +96,6 @@
 <!---Footer end=====================-->
 
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
-<script defer src="/src/javascript/docx_converter.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-
+<script defer src="/src/javascript/mp3_converter.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ffmpeg.js/0.10.2/ffmpeg.min.js"></script>
 </html>
