@@ -205,10 +205,10 @@
   .container1 {
     max-width: 600px;
     margin: auto;
-    background: var(--banner-bg);
+    
     padding: 60px;
     border-radius: 8px;
-    box-shadow: 3px 3px 4px black;
+    
   }
   
   textarea {
