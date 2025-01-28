@@ -272,10 +272,10 @@ form button{
   }
 }
 
-  form svg{
-    padding: 10px;
+  form img{
+    padding: 5px;
     width: 320px;
-    height: 150px;
+    height: 200px;
     animation: rotate1 2s linear infinite ;
   }
 
@@ -284,11 +284,20 @@ form button{
   20%{transform: rotateY(10deg);}
   10%{scale: 1.2;}
 }
-
-
-
-
  /*======main section end=========*/
+#subject{
+  width: 200px;
+  height: 20px;
+}
+
+p{
+  text-shadow: 3px 3px 4px black;
+}
+
+h4{
+  text-shadow: 3px 3px 4px black;
+  color: var(--hedline-color);
+}
 
 /*======chatbot section =========*/
 
