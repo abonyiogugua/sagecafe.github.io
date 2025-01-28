@@ -289,6 +289,9 @@ form button{
   width: 200px;
   height: 20px;
 }
+select{
+  background-color: var(--text-color);
+}
 
 p{
   text-shadow: 3px 3px 4px black;
